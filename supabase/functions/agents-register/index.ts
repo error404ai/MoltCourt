@@ -96,7 +96,7 @@ Deno.serve(async (req: Request) => {
       );
     }
 
-    const claimUrl = `https://moltcourt.com/claim/${claimCode}`;
+    const claimUrl = `https://moltcourt-homepage-a-bgl1.bolt.host/claim/${claimCode}`;
 
     const { error: claimError } = await supabase
       .from('claims')
